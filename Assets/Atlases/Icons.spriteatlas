@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Icons
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: 4e03108b3931b0fabf3f253f33e2bd84
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: 4e03108b3931b0fabf3f253f33e2bd84
+    totalSpriteSurfaceArea: 224208
+    packables:
+    - {fileID: 2800000, guid: d1de79d839bfdc342b571e6ba785feb5, type: 3}
+    - {fileID: 2800000, guid: 9fb97693761213d4f8eeb539f5421946, type: 3}
+    - {fileID: 2800000, guid: 2014bd14446850548b399ba525f84261, type: 3}
+    - {fileID: 2800000, guid: 31fca113ec140c44f8ddeb5562131cab, type: 3}
+    - {fileID: 2800000, guid: b87d36608eca6804da76f6f48378cfe7, type: 3}
+    - {fileID: 2800000, guid: 93a5002a69fbab64095414f21f2269e1, type: 3}
+    - {fileID: 2800000, guid: 4d77397922d798e499e64cd5365577de, type: 3}
+    - {fileID: 2800000, guid: 2b6a01a64d8a23f41adb5ed00a0ce0a1, type: 3}
+    - {fileID: 2800000, guid: 15e5c8aeb22dc9c4f81ce930fb6200b5, type: 3}
+    - {fileID: 2800000, guid: 13d12f9e42dc7db4591a1c0c6ef7d256, type: 3}
+    - {fileID: 2800000, guid: 41f6595dbb7acec499feccf0f1085c22, type: 3}
+    - {fileID: 2800000, guid: 79e1a61e65753154e864a799b24daf19, type: 3}
+    packedSpriteRenderDataKeys:
+    - 15e5c8aeb22dc9c4f81ce930fb6200b5: 21300000
+    - 2b6a01a64d8a23f41adb5ed00a0ce0a1: 21300000
+    - 13d12f9e42dc7db4591a1c0c6ef7d256: 21300000
+    - 4d77397922d798e499e64cd5365577de: 21300000
+    - 93a5002a69fbab64095414f21f2269e1: 21300000
+    - 41f6595dbb7acec499feccf0f1085c22: 21300000
+    - 79e1a61e65753154e864a799b24daf19: 21300000
+    - 2014bd14446850548b399ba525f84261: 21300000
+    - 9fb97693761213d4f8eeb539f5421946: 21300000
+    - d1de79d839bfdc342b571e6ba785feb5: 21300000
+    - b87d36608eca6804da76f6f48378cfe7: 21300000
+    - 31fca113ec140c44f8ddeb5562131cab: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 15e5c8aeb22dc9c4f81ce930fb6200b5, type: 3}
+  - {fileID: 21300000, guid: 2b6a01a64d8a23f41adb5ed00a0ce0a1, type: 3}
+  - {fileID: 21300000, guid: 13d12f9e42dc7db4591a1c0c6ef7d256, type: 3}
+  - {fileID: 21300000, guid: 4d77397922d798e499e64cd5365577de, type: 3}
+  - {fileID: 21300000, guid: 93a5002a69fbab64095414f21f2269e1, type: 3}
+  - {fileID: 21300000, guid: 41f6595dbb7acec499feccf0f1085c22, type: 3}
+  - {fileID: 21300000, guid: 79e1a61e65753154e864a799b24daf19, type: 3}
+  - {fileID: 21300000, guid: 2014bd14446850548b399ba525f84261, type: 3}
+  - {fileID: 21300000, guid: 9fb97693761213d4f8eeb539f5421946, type: 3}
+  - {fileID: 21300000, guid: d1de79d839bfdc342b571e6ba785feb5, type: 3}
+  - {fileID: 21300000, guid: b87d36608eca6804da76f6f48378cfe7, type: 3}
+  - {fileID: 21300000, guid: 31fca113ec140c44f8ddeb5562131cab, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - coin_09
+  - coin_08
+  - coin_10
+  - coin_07
+  - coin_06
+  - coin_11
+  - coin_12
+  - coin_03
+  - coin_02
+  - coin_01
+  - coin_05
+  - coin_04
+  m_Tag: Icons
+  m_IsVariant: 0
