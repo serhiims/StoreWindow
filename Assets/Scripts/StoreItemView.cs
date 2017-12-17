@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.UI;
 
 public class StoreItemView : MonoBehaviour {
-	protected string id;
+	public string id;
 	public TextMeshProUGUI countTF;
 	public TextMeshProUGUI priceTF;
 	public TextMeshProUGUI descriptionTF;
 	public IconView icon;
+	public Button button;
 	public event Action<StoreItemView> StoreItemClickedEvent;
+
+	void Start(){
+		button.onClick.AddListener (OnMouseDown);
+	}
 
 	public void setData(StoreItemData item){
 		if(item == null){
@@ -23,10 +29,9 @@ public class StoreItemView : MonoBehaviour {
 		icon.changeImage (item.iconPath);
 	}
 
-	public void OnMouseDown()
-	{
+	public void OnMouseDown() {
 		Debug.Log (id);
-		if(StoreItemClickedEvent != null)
+	    if(StoreItemClickedEvent != null)
 		{
 			StoreItemClickedEvent(this);
 		}

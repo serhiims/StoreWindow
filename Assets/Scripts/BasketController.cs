@@ -8,12 +8,13 @@ public class BasketController : MonoBehaviour {
 		if (item == null) {
 			return;
 		}
+
 		var newItem = Instantiate (item, transform, false);
 		newItem.StoreItemClickedEvent += onItemClicked;
 	}
 
 	public void onItemClicked(StoreItemView item){
 		item.StoreItemClickedEvent -= onItemClicked;
-		Destroy (item);
+		Destroy (item.gameObject);
 	}
 }
